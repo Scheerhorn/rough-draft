@@ -1,0 +1,26 @@
+body {
+    background-color: #33cc33;
+}
+
+.searchBar {
+    background-color: #adebad;
+    width: clamp(120px, 15%, 600px);
+}
+
+.homeButton {
+    color: #0f3d0f;
+    text-decoration: none;
+    font-size: clamp(5px, 8vw, 80px);
+    text-align: center;
+}
+
+
+.homeButton:hover {
+    color: purple;
+    text-decoration: none;
+}
+
+.currentDate {
+    text-align: center;
+    font-size: clamp(2px, 4vw, 30px);
+}
