@@ -1,64 +1,37 @@
 const dailyDeals = {
   0: [ // Sunday
-      { name: "Rootdown", deal: " &#127804 30% off micros", lat: 40.7128, lon: -74.0060 },
-      { name: "Spillway Dispensary", deal: "&#127855 10 dollars off each flower unit", lat: 40.7306, lon: -73.9352 },
-      { name: "Spillway", deal:"Good deal", lat: 34.5678, lon: -54.7678 }
+        // RIDGELAND 
+      { name: "Open Mind", deal: "&#127968 15% off store-wide", lat: 32.38819, lon:-90.11402 },
   ],
   1: [ // Monday
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
-      { name: "", deal: "", lat: 0, lon: 0 },
+        // RIDGELAND
+      { name: "Open Mind", deal: "&#127851 20% off edibles", lat: 32.38819, lon:-90.11402 },
   ],
   2: [ // Tuesday
-      { name: "Tech Hub", lat: 32.38431533522139, lon:-90.04181296061851},
-      { name: "Rock Climbing Gym", lat: 32.33835, lon: -90.14570}
+    // RIDGELAND
+      { name: "Open Mind", deal: "", lat: 32.38819, lon:-90.11402 },
   ],
   3: [ // Wednesday
-      { name: "Cozy Library", lat: 37.7749, lon: -122.4194 },
-      { name: "Art Museum", lat: 37.8001, lon: -122.4177 }
+    // RIDGELAND
+      { name: "Open Mind", deal: "", lat: 32.38819, lon:-90.11402 },
   ],
   4: [ // Thursday
-      { name: "Music Store", lat: 47.6062, lon: -122.3321 },
-      { name: "Cinema Paradise", lat: 47.6152, lon: -122.3415 }
+    // RIDGELAND
+      { name: "Open Mind", deal: "", lat: 32.38819, lon:-90.11402 },
   ],
   5: [ // Friday
-      { name: "Local Bakery", lat: 29.7604, lon: -95.3698 },
-      { name: "Farmers Market", lat: 29.7523, lon: -95.3624 }
+    // RIDGELAND
+      { name: "Open Mind", deal: "", lat: 32.38819, lon:-90.11402 },
   ],
   6: [ // Saturday
-      { name: "Gaming Lounge", lat: 33.4484, lon: -112.0740 },
-      { name: "Outdoor Park", lat: 33.4555, lon: -112.0651 }
-  ]
+    // RIDGELAND
+      { name: "Open Mind", deal: "", lat: 32.38819, lon:-90.11402 },
+  ]  
+  
+  
+  // template { name: "", deal: "", lat: 0, lon: 0 },
+  // house: &#127968 flower: &#127804 honeypot: &#127855 chocolate bar: &#127851 topical : &#129524 tincture : &#128167 
+  // pre-roll: &#128684
 };
 
 const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
