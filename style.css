@@ -2,9 +2,17 @@ body {
     background-color: #33cc33;
 }
 
+.searchContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
 .searchBar {
     background-color: #adebad;
     width: clamp(120px, 15%, 600px);
+    display: flex;
+    border-radius: 5px;
 }
 
 .homeButton {
@@ -23,4 +31,10 @@ body {
 .currentDate {
     text-align: center;
     font-size: clamp(2px, 4vw, 30px);
+}
+
+@media screen and (max-width: 600px) {
+    .searchBar {
+        width: 100%; /* Make search bar full width on small screens */
+    }
 }
