@@ -2,36 +2,43 @@ const dailyDeals = {
   0: [ // Sunday
         // RIDGELAND 
       { name: "Open Mind", deal: "&#127968 15% off store-wide", lat: 32.38819, lon:-90.11402 },
+      { name: "", deal: "", lat: 0, lon: 0 }
   ],
   1: [ // Monday
         // RIDGELAND
-      { name: "Open Mind", deal: "&#127851 20% off edibles", lat: 32.38819, lon:-90.11402 },
+      { name: "Open Mind", deal: "&#127851 20% off Edibles", lat: 32.38819, lon:-90.11402 },
+      { name: "", deal: "", lat: 0, lon: 0 }
   ],
   2: [ // Tuesday
     // RIDGELAND
-      { name: "Open Mind", deal: "", lat: 32.38819, lon:-90.11402 },
+      { name: "Open Mind", deal: "&#128684 20% off Pre-rolls", lat: 32.38819, lon:-90.11402 },
+      { name: "", deal: "", lat: 0, lon: 0 }
   ],
   3: [ // Wednesday
     // RIDGELAND
-      { name: "Open Mind", deal: "", lat: 32.38819, lon:-90.11402 },
+      { name: "Open Mind", deal: "&#9889 &#127855 20% off Vapes & Concentrates", lat: 32.38819, lon:-90.11402 },
+      { name: "", deal: "", lat: 0, lon: 0 }
   ],
   4: [ // Thursday
     // RIDGELAND
-      { name: "Open Mind", deal: "", lat: 32.38819, lon:-90.11402 },
+      { name: "Open Mind", deal: "&#129524 20% off Topicals", lat: 32.38819, lon:-90.11402 },
+      { name: "", deal: "", lat: 0, lon: 0 }
   ],
   5: [ // Friday
     // RIDGELAND
-      { name: "Open Mind", deal: "", lat: 32.38819, lon:-90.11402 },
+      { name: "Open Mind", deal: "&#127804 $10 off each Flower item", lat: 32.38819, lon:-90.11402 },
+      { name: "", deal: "", lat: 0, lon: 0 }
   ],
   6: [ // Saturday
     // RIDGELAND
-      { name: "Open Mind", deal: "", lat: 32.38819, lon:-90.11402 },
+      { name: "Open Mind", deal: "&#128092 20% off Accessories", lat: 32.38819, lon:-90.11402 },
+      { name: "", deal: "", lat: 0, lon: 0 }
   ]  
   
   
   // template { name: "", deal: "", lat: 0, lon: 0 },
-  // house: &#127968 flower: &#127804 honeypot: &#127855 chocolate bar: &#127851 topical : &#129524 tincture : &#128167 
-  // pre-roll: &#128684
+  // house: &#127968 flower: &#127804 concentrate: &#127855 chocolate bar: &#127851 topical : &#129524 tincture : &#128167 
+  // pre-roll: &#128684 vape: &#9889 accessories: &#128092
 };
 
 const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
