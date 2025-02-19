@@ -6,13 +6,16 @@ body {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    padding: 40px 0px;
 }
 
 .searchBar {
     background-color: #adebad;
-    width: clamp(120px, 20vw, 600px);
-    display: flex;
-    border-radius: 5px;
+    width: 19vw;
+    min-width: 350px;
+    height: clamp(8px, 5vw, 40px);
+    border-radius: 12px;
+    font-size: clamp(2px, 5vw, 23px);
 }
 
 .homeButton {
@@ -36,9 +39,6 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .searchBar {
-        width: 100%; /* Make search bar full width on small screens */
-    }
 }
 
 .heading {
@@ -55,9 +55,5 @@ body {
     justify-content: space-around;
 }
 
-
-.searchContainer {
-    padding: 40px 0px;
-}
 
 
