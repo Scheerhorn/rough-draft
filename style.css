@@ -46,7 +46,7 @@ body {
 }
 
 .links {
-    font-size: clamp(30px, 4vw, 50px);
+    font-size: clamp(20px, 4vw, 50px);
     display: flex;
     justify-content: center;
     align-items: center;
