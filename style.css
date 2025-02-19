@@ -18,7 +18,7 @@ body {
 .homeButton {
     color: #0f3d0f;
     text-decoration: none;
-    font-size: clamp(5px, 10vw, 80px);
+    font-size: clamp(5px, 13vw, 80px);
     text-align: center;
     margin: 0;
     padding: 0;
