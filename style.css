@@ -15,7 +15,7 @@ body {
     min-width: 250px;
     height: clamp(8px, 5vw, 40px);
     border-radius: 12px;
-    font-size: clamp(2px, 5vw, 23px);
+    font-size: 1.1em;
 }
 
 .homeButton {
