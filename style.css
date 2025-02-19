@@ -12,7 +12,7 @@ body {
 .searchBar {
     background-color: #adebad;
     width: 19vw;
-    min-width: 300px;
+    min-width: 250px;
     height: clamp(8px, 5vw, 40px);
     border-radius: 12px;
     font-size: clamp(2px, 5vw, 23px);
