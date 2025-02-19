@@ -8,9 +8,9 @@ const dailyDeals = {
             // Southern Sky - Lakeland is closed on Sunday
             // Rootdown - Lakeland is closed on Sunday
           //PEARL
-            { name: "", deal: "", lat: 0, lon: 0},
-            
-            
+            { name: "Southern Sky - Pearl", deal: "&#10071 2 X loyalty points", lat: 32.26664, lon: -90.13920},
+          //RICHLAND
+            { name: "Oddfellow Wellness", deal: "", lat: 32.22353, lon: -90.15655},          
   ],
   1: [ // Monday
         // RIDGELAND
@@ -19,7 +19,10 @@ const dailyDeals = {
           { name: "Ignite", deal: "&#127851 20% off Edibles", lat: 32.3766, lon: -90.1472},
           { name: "Southern Sky - Lakeland", deal: "&#127851 20% off Edibles", lat: 32.3329, lon: -90.1386},
           { name: "Rootdown - Lakeland", deal: "&#127804 20% off select micros Flower", lat: 32.33369, lon: -90.1446},
-          { name: "", deal: "", lat: 0, lon: 0},
+        //PEARL
+          { name: "Southern Sky - Pearl", deal: "&#127851 20% off edibles", lat: 32.26664, lon: -90.13920},
+        //RICHLAND
+          { name: "Oddfellow Wellness", deal: "", lat: 32.22353, lon: -90.15655},
   ],
   2: [ // Tuesday
         // RIDGELAND
@@ -28,7 +31,10 @@ const dailyDeals = {
           { name: "Ignite", deal: "&#128167 20% off all Tincture", lat: 32.3766, lon: -90.1472},
           { name: "Southern Sky - Lakeland", deal: "&#9889 20% off Vapes", lat: 32.3329, lon: -90.1386},
           { name: "Rootdown - Lakeland", deal: "&#127851 Buy 2 get 1 100mg Gummies", lat: 32.33369, lon: -90.1446},
-          { name: "", deal: "&#129689", lat: 0, lon: 0},
+        //PEARL
+          { name: "Southern Sky - Pearl", deal: "&#9889 20% off vape carts", lat: 32.26664, lon: -90.13920},
+        //RICHLAND
+          { name: "Oddfellow Wellness", deal: "", lat: 32.22353, lon: -90.15655},
   ],
   3: [ // Wednesday
         // RIDGELAND
@@ -37,7 +43,10 @@ const dailyDeals = {
           { name: "Ignite", deal: "&#127968 20% off budtender's choice", lat: 32.3766, lon: -90.1472},
           { name: "Southern Sky - Lakeland", deal: "&#129524 &#128167 20% off Topicals & Tinctures", lat: 32.3329, lon: -90.1386},
           { name: "Rootdown - Lakeland", deal: "&#127855 BOGO 30% off Concentrates", lat: 32.33369, lon: -90.1446},
-          { name: "", deal: "", lat: 0, lon: 0},
+        // PEARL
+          { name: "Southern Sky - Pearl", deal: "&#129524 &#128167 20% off Topicals & Tinctures", lat: 32.26664, lon: -90.13920},
+        // RICHLAND
+          { name: "Oddfellow Wellness", deal: "", lat: 32.22353, lon: -90.15655},
   ],
   4: [ // Thursday
         // RIDGELAND
@@ -46,7 +55,10 @@ const dailyDeals = {
           { name: "Ignite", deal: "&#127865 BOGO 1/2 off Seltzer", lat: 32.3766, lon: -90.1472},
           { name: "Southern Sky - Lakeland", deal: "&#128684 20% off Pre-rolls", lat: 32.3329, lon: -90.1386},
           { name: "Rootdown - Lakeland", deal: "&#127865 Buy 3 get 1 Noble Seltzer", lat: 32.33369, lon: -90.1446},
-          { name: "", deal: "", lat: 0, lon: 0},
+        // PEARL
+          { name: "Southern Sky - Pearl", deal: "&#128684 20% off Pre-rolls", lat: 32.26664, lon: -90.13920},
+        // RICHLAND
+          { name: "Oddfellow Wellness", deal: "", lat: 32.22353, lon: -90.15655},
   ],
   5: [ // Friday
         // RIDGELAND
@@ -55,7 +67,10 @@ const dailyDeals = {
           { name: "Ignite", deal: "&#127804 20% off all Flower", lat: 32.3766, lon: -90.1472},
           { name: "Southern Sky - Lakeland", deal: "&#127804 20% off Flower", lat: 32.3329, lon: -90.1386},
           { name: "Rootdown - Lakeland", deal: "&#127968 House Deal", lat: 32.33369, lon: -90.1446},
-          { name: "", deal: "", lat: 0, lon: 0},
+        // PEARL
+          { name: "Southern Sky - Pearl", deal: "&#127804 20% off Flower", lat: 32.26664, lon: -90.13920},
+        //RICHLAND
+          { name: "Oddfellow Wellness", deal: "", lat: 32.22353, lon: -90.15655},
   ],
   6: [ // Saturday
         // RIDGELAND
@@ -64,13 +79,16 @@ const dailyDeals = {
           // Ignite need to check on Saturday
           { name: "Southern Sky - Lakeland", deal: "&#127855 20% off Concentrates", lat: 32.3329, lon: -90.1386},
           { name: "Rootdown - Lakeland", deal: "&#9889 BOGO 30% off full-spectrum Carts", lat: 32.33369, lon: -90.14466},
-          { name: "", deal: "", lat: 0, lon: 0},
+        // PEARL
+          { name: "Southern Sky - Pearl", deal: "&#127855 20% off Concentrates", lat: 32.26664, lon: -90.13920},
+        //RICHLAND
+          { name: "Oddfellow Wellness", deal: "", lat: 32.22353, lon: -90.15655},
   ]  
   
   
   // template { name: "", deal: "", lat: 0, lon: 0},
   // house: &#127968 flower: &#127804 concentrate: &#127855 chocolate bar: &#127851 topical: &#129524 tincture: &#128167 
-  // pre-roll: &#128684 vape: &#9889 accessories: &#128092 beverages: &#127865 rewards points: &#129689
+  // pre-roll: &#128684 vape: &#9889 accessories: &#128092 beverages: &#127865 rewards points: &#10071
 };
 
 const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
