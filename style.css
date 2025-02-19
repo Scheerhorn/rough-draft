@@ -38,3 +38,9 @@ body {
         width: 100%; /* Make search bar full width on small screens */
     }
 }
+
+.links {
+    display: flex;
+    font-size: 50px;
+    justify-content: space-around;
+}
