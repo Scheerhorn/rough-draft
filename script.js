@@ -10,7 +10,7 @@ const dailyDeals = {
           //PEARL
             { name: "Southern Sky - Pearl", deal: "&#10071 2 X loyalty points", lat: 32.26664, lon: -90.13920},
           //RICHLAND
-            { name: "Oddfellow Wellness", deal: "", lat: 32.22353, lon: -90.15655},          
+            { name: "Oddfellow Wellness", deal: "&#127968 40-50% off select items", lat: 32.22353, lon: -90.15655},          
   ],
   1: [ // Monday
         // RIDGELAND
@@ -22,7 +22,7 @@ const dailyDeals = {
         //PEARL
           { name: "Southern Sky - Pearl", deal: "&#127851 20% off edibles", lat: 32.26664, lon: -90.13920},
         //RICHLAND
-          { name: "Oddfellow Wellness", deal: "", lat: 32.22353, lon: -90.15655},
+          { name: "Oddfellow Wellness", deal: "&#127851 10% off edibles ", lat: 32.22353, lon: -90.15655},
   ],
   2: [ // Tuesday
         // RIDGELAND
@@ -32,9 +32,9 @@ const dailyDeals = {
           { name: "Southern Sky - Lakeland", deal: "&#9889 20% off Vapes", lat: 32.3329, lon: -90.1386},
           { name: "Rootdown - Lakeland", deal: "&#127851 Buy 2 get 1 100mg Gummies", lat: 32.33369, lon: -90.1446},
         //PEARL
-          { name: "Southern Sky - Pearl", deal: "&#9889 20% off vape carts", lat: 32.26664, lon: -90.13920},
+          { name: "Southern Sky - Pearl", deal: "&#9889 20% off Vape Carts", lat: 32.26664, lon: -90.13920},
         //RICHLAND
-          { name: "Oddfellow Wellness", deal: "", lat: 32.22353, lon: -90.15655},
+          { name: "Oddfellow Wellness", deal: "Update deal", lat: 32.22353, lon: -90.15655},
   ],
   3: [ // Wednesday
         // RIDGELAND
@@ -46,7 +46,7 @@ const dailyDeals = {
         // PEARL
           { name: "Southern Sky - Pearl", deal: "&#129524 &#128167 20% off Topicals & Tinctures", lat: 32.26664, lon: -90.13920},
         // RICHLAND
-          { name: "Oddfellow Wellness", deal: "", lat: 32.22353, lon: -90.15655},
+          { name: "Oddfellow Wellness", deal: "&#127855 10% off Concentrates", lat: 32.22353, lon: -90.15655},
   ],
   4: [ // Thursday
         // RIDGELAND
@@ -58,7 +58,7 @@ const dailyDeals = {
         // PEARL
           { name: "Southern Sky - Pearl", deal: "&#128684 20% off Pre-rolls", lat: 32.26664, lon: -90.13920},
         // RICHLAND
-          { name: "Oddfellow Wellness", deal: "", lat: 32.22353, lon: -90.15655},
+          { name: "Oddfellow Wellness", deal: "&#127968 Budtender's choice", lat: 32.22353, lon: -90.15655},
   ],
   5: [ // Friday
         // RIDGELAND
@@ -70,7 +70,7 @@ const dailyDeals = {
         // PEARL
           { name: "Southern Sky - Pearl", deal: "&#127804 20% off Flower", lat: 32.26664, lon: -90.13920},
         //RICHLAND
-          { name: "Oddfellow Wellness", deal: "", lat: 32.22353, lon: -90.15655},
+          { name: "Oddfellow Wellness", deal: "&#127968 20% off store-wide", lat: 32.22353, lon: -90.15655},
   ],
   6: [ // Saturday
         // RIDGELAND
@@ -82,7 +82,7 @@ const dailyDeals = {
         // PEARL
           { name: "Southern Sky - Pearl", deal: "&#127855 20% off Concentrates", lat: 32.26664, lon: -90.13920},
         //RICHLAND
-          { name: "Oddfellow Wellness", deal: "", lat: 32.22353, lon: -90.15655},
+          { name: "Oddfellow Wellness", deal: "&#127968 40-50% off select items", lat: 32.22353, lon: -90.15655},
   ]  
   
   
