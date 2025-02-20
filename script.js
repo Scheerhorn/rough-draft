@@ -183,7 +183,7 @@ console.log("Error");
 function haversineDistance(lat1, lon1, lat2, lon2) {
   const R = 3958.8; // Radius of the Earth in kilometers. Use 3958.8 for miles.
   const dLat = (lat2 - lat1) * Math.PI / 180;
-  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180; 
   const a =
     Math.sin(dLat / 2) ** 2 +
     Math.cos(lat1 * Math.PI / 180) *
